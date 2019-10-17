@@ -41,11 +41,16 @@ function updateDisplay() {
 	alert("resume");
     }
 
-//data storage code
-	
+	//data storage code
+	function storage () {
+		
 	var key = "pen";
 	var value = "Black";
 	window.localStorage.setItem(key,value);
 	var value = window.localStorage.getItem(key);
 	
 	alert(value);
+	}
+	
+	//number of items stored
+	
