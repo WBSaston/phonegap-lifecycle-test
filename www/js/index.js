@@ -9,6 +9,7 @@ function updateDisplay() {
 	$("#resumed").text("Application paused: " + paused_count);
 	$("#paused").text("Application resumed: " + resumed_count);
 	$("#storageCount").text("The value of the key is '" + key + "' and the value of the value is '" + value + "'");
+	$("#storeageNo").text("There are currently " + total + " items stored inside this application.");
 }
 
 
@@ -55,7 +56,6 @@ function updateDisplay() {
 	
 	window.localStorage.setItem(key,value);
 	
-	var value = window.localStorage.getItem(key);
-	
 	//number of items stored
 	
+	var total = window.localStorage.length;
