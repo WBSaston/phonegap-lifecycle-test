@@ -47,8 +47,12 @@ function updateDisplay() {
 	
 	var key = "Pen";
 	var value = "Black";
-	var key = "Bag";
-	var value = "Green";
+	
+	window.localStorage.setItem(key,value);
+	
+	key = "Bag";
+	value = "Green";
+	
 	window.localStorage.setItem(key,value);
 	
 	var value = window.localStorage.getItem(key);
