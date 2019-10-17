@@ -51,7 +51,5 @@ function updateDisplay() {
 	
 	var value = window.localStorage.getItem(key);
 	
-	alert(value);
-	
 	//number of items stored
 	
