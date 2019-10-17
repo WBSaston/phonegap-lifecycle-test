@@ -8,7 +8,7 @@ function updateDisplay() {
 	$("#launched").text("Application launched: " + launched_count);
 	$("#resumed").text("Application paused: " + paused_count);
 	$("#paused").text("Application resumed: " + resumed_count);
-	$("#storageCount").text("The value of the key is '" + key + "' and the value of the value is '" + value + "'");
+	$("#storageCount").text("The value of the lastest key is '" + key + "' and the value of the latest value is '" + value + "'");
 	$("#storeageNo").text("There are currently " + total + " items stored inside this application.");
 }
 
