@@ -48,4 +48,4 @@ function updateDisplay() {
 	window.localStorage.setItem(key,value);
 	var value = window.localStorage.getItem(key);
 	
-	window.alert(value);
+	alert(value);
