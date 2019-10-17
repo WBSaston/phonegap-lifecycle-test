@@ -8,6 +8,7 @@ function updateDisplay() {
 	$("#launched").text("Application launched: " + launched_count);
 	$("#resumed").text("Application paused: " + paused_count);
 	$("#paused").text("Application resumed: " + resumed_count);
+	$("#storageCount").text("The value of the key is " + value);
 }
 
 
