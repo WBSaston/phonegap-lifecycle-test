@@ -50,3 +50,13 @@ function updateDisplay() {
 	    
 	alert("resume");
     }
+
+//data storage code
+
+	var key = "pen";
+	var value = "Black";
+
+	var key = "Pen";
+	var value = window.localStorage.getItem(key);
+	
+		$("#text").text(key);
