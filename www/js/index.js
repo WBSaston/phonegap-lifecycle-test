@@ -44,6 +44,12 @@ function updateDisplay() {
 	alert("resume");
     }
 
+	//reading and outputting input values
+	function submitText() {
+	var text = $('#textinput').val();
+	alert(text);
+}
+
 	//data storage code
 	
 	var key = "Pen";
